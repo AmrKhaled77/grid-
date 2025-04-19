@@ -1,0 +1,419 @@
+
+
+
+/* start glopal */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* end glopal */
+
+
+
+
+/* learn-more-item */
+
+.learn-more-item{
+    padding-block:50px ;
+    padding-inline: 10px;
+
+text-align: center;
+
+background-color: #F7F8F9
+}
+
+.learn-more-item h3{
+    font-size: 12px;
+    font-family: "Arvo", serif;
+color: #9FA3A7;
+}
+.learn-more-item p{
+    
+    line-height: 1.6;
+    font-family: "Arvo", serif;
+    color: #333333;
+    font-weight: 400;
+    font-size: 2.2rem;
+    padding-block:16px ;
+}
+.learn-more-item a{
+    padding-block:16px ;
+    color: #27B9C2;
+}
+
+
+
+
+/* learn-more-item */
+
+
+
+/* iphone-6s-item */
+
+
+.iphone-6s-item{
+    padding-top:50px ;
+    padding-inline: 10px;
+background-color: white;
+
+}
+.iphone-6s-item .pic{
+ 
+    
+    padding-top: 20px;
+    
+    
+
+
+
+}
+.iphone-6s-item img{
+    margin: auto;
+    display: block;
+width: 60%;
+}
+.iphone-6s-item .text{
+   
+width: 85%;
+margin: auto;
+}
+
+.iphone-6s-item h3{
+    font-size: 13px;
+    font-family: "Arvo", serif;
+color: #9FA3A7;
+
+
+
+}
+.iphone-6s-item p{
+    padding-block:16px ;
+
+    font-family: "Arvo", serif;
+    font-size: 22px;
+    color: #333333;
+    line-height: 1.6;
+}
+.iphone-6s-item span{
+    
+    color: RGB(159, 163, 167);
+
+}
+
+.keyboard-item{
+    padding-block:30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F05638;
+    
+}
+
+.keyboard-item img{
+    display: block;
+    margin: auto;
+width: 70%;
+
+
+}
+.keyboard-item h2{
+    text-align: center;
+    padding-block:12px ;
+    color: white;
+}
+.keyboard-item span{
+    padding-block:12px ;
+    color: #FFC80A;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* iphone-6s-item */
+
+
+
+/* games-item */
+.games{
+    padding-block:50px ;
+    background-color: #F7F8F9;
+}
+.games h2{
+    color: #5B686D;
+
+}
+.games span{
+    color: #27B9C2;
+}
+
+/* games-item */
+
+
+
+/* IMAC RETINA */
+
+
+
+.IMAC-RETINA{
+
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+
+.IMAC-RETINA h3{
+
+    font-size: 12px;
+    font-family: "Arvo", serif;
+color: #9FA3A7;
+padding-inline: 12px;
+}
+.IMAC-RETINA p{
+
+    font-family: "Arvo", serif;
+    color: #333333;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-block:16px ;
+    padding-inline: 12px;
+}
+.IMAC-RETINA img{
+
+    display: block;
+    margin: auto;
+    width: 80%;
+    position: relative;
+   
+ 
+}
+
+
+/* IMAC RETINA */
+
+
+
+/* download */
+.download{
+   
+    padding-inline: 20px;
+}
+.download p{
+ color: #9FA3A7;
+ padding-block: 16px;
+ line-height: 1.8;
+}
+.download span{
+    padding-block: 16px;
+ color: #27B9C2;  
+ font-weight: bold;
+}
+
+
+/* download */
+
+
+/* twitter */
+.twitter{
+    
+    background-color: #38D5F4;
+}
+
+.twitter .layout{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    text-align: center;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #35CFED;
+}
+
+.twitter .layout img{
+    width: 60px;
+    padding-bottom: 1.8rem;
+}
+
+.twitter .layout p{
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+/* twitter */
+
+
+/* Experience */
+
+.Experience{
+    background-color: #93B6B7;
+    padding-block: 50px;
+}
+
+.Experience .pic{
+
+    
+
+}
+.Experience img{
+    width: 100%;
+}
+
+.Experience img[alt="iPad"]{
+   position: relative;
+   left: -10%;
+   bottom: 0;
+   
+}
+.Experience img[alt="ux"]{
+    
+ 
+ 
+  
+}
+.Experience h2{
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+.Experience span{
+    font-size: 12px;
+    color: white;
+    background-color: #FA684F;
+    margin: 0 0 20px 20px;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+/* Experience */
+
+
+
+/* POPULAR */
+
+.POPULAR{
+    overflow: hidden;
+    background-color: #8F76BC;
+    text-align: center;
+   
+}
+
+.POPULAR .circule{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 10px ;
+  width: 375px;
+  height: 375px;
+  border-radius: 50%;
+  background-color: #8166B0;
+ 
+  
+}
+
+.POPULAR .circule .icon i{
+
+    width: 10px;
+    height: 10px;
+}
+.POPULAR .circule .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    width: 110px;
+    height: 25px;
+    background-color: #8B72B6;
+    
+}
+.POPULAR .circule .icon span{
+    color: white;
+    font-size: 10px;
+}
+.POPULAR .circule  img {
+    width: 60%;
+   
+
+}
+
+.POPULAR h2{
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: "Arvo", serif;
+}
+.POPULAR p{
+    padding: 15px 50px;
+    text-align: center;
+    color: white;
+    line-height: 1.9;
+}
+
+.POPULAR button{
+    background-color: #FFC80A;
+    border: 0;
+    border-radius: 25px;
+    padding: 15px 30px;
+    margin-block: 10px 60px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* POPULAR */
+
+/* Experience */
+.Experience{
+    text-align: center;
+    background-color: white;
+}
+.Experience span{
+    font-size: 10px;
+    background-color:#7BC424 ;
+    padding: 4px 12px;
+    margin: 0;
+}
+
+.Experience p{
+    padding: 20px;
+    color: black;
+    font-size: 25px;
+    font-family: "Arvo", serif;
+}
+
+
+/* Experience */
+
+/* vision */
+
+.vision{
+    text-align: center;
+    background-color: #2C2C2C;
+}
+
+.vision img{
+    width: 80%;
+    position: relative;
+    right: 15%;
+}
+
+.vision p{
+    color: white;
+    font-family: "Arvo", serif;
+    font-size: 35px;
+    padding-bottom: 15%;
+}
+/* vision */
+
