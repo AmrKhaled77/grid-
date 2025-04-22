@@ -1,9 +1,134 @@
 
 
+@media (min-width: 741px){
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr); 
+        
+        grid-template-areas:
+        
+            "learn-more-item learn-more-item "
+            "learn-more-item learn-more-item "
+            "iphone-6s-item  iphone-6s-item "
+            "iphone-6s-item  iphone-6s-item "
+            "keyboard-item games "
+            "keyboard-item games "
+            "IMAC-RETINA download "
+            "IMAC-RETINA download "
+            "twitter POPULAR "
+            "twitter POPULAR "
+            "Experience POPULAR "
+            "Experience POPULAR "
+            "EXPERINCE EXPERINCE "
+            "vision vision "
+            " vision vision"
+            
+            
+            
+            
+            ;
+    }
+
+    .keyboard-item{
+
+        
+    }
+
+    .keyboard-item img{
+        width: 70%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .POPULAR .circule{
+  
+        width: 95%;
+        height: 52%;
+        
+       
+        
+      }
+      
+
+      .vision{
+    
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+        .vision img{
+            margin-left: 5%;
+            width: 35%;
+        }
+    
+        .vision p{
+            margin-right: 7%;
+            
+            width: 50%;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .IMAC-RETINA img{
+            width: 40%;
+        }
+    
+    
+        .IMAC-RETINA .text{
+            width: 60%;
+            margin: auto;
+            padding-bottom: 15px;
+        }
+    
+        .download{
+            padding-top: 10%;
+        width: 80%;
+        }
+
+        .iphone-6s-item{
+            overflow: hidden;
+            padding: 0px;
+            display: flex;
+        }
+        .iphone-6s-item .text{
+            padding: 30px;
+    
+            width: 40%;
+        }
+    
+        .iphone-6s-item img{
+            position: relative;
+            bottom: -5%;
+            margin: auto;
+           
+        width: 55%;
+        
+        }
+
+        .games img{
+            width: 50%;
+           
+    
+        }
+    
+        .games{
+            padding: 0;
+            margin: 0;
+        }
+.EXPERINCE{
+    overflow: hidden;
+}
+        .EXPERINCE span{
+          position: relative;
+          top: 10px;
+        }
+
+  
+    
+
+}
 
 
-
-@media (min-width: 1024px) {
+@media (min-width: 1024px ) {
     .grid {
         grid-template-columns: repeat(4, 1fr); 
         
@@ -17,6 +142,16 @@
             "twitter EXPERINCE vision vision";
     }
 
+
+    
+.POPULAR .circule{
+  
+  width: 99%;
+  height: 50%;
+  
+ 
+  
+}
 
     .iphone-6s-item{
         overflow: hidden;
@@ -156,5 +291,7 @@
 
 
 }
+
+
 
 
