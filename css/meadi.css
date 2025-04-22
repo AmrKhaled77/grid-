@@ -1,0 +1,160 @@
+
+
+
+
+
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr); 
+        
+        grid-template-areas:
+            "iphone-6s-item iphone-6s-item learn-more-item learn-more-item"
+            "iphone-6s-item iphone-6s-item learn-more-item learn-more-item"
+            "keyboard-item IMAC-RETINA download POPULAR"
+            "keyboard-item IMAC-RETINA download POPULAR"
+            "games Experience Experience POPULAR"
+            "games Experience Experience POPULAR"
+            "twitter EXPERINCE vision vision";
+    }
+
+
+    .iphone-6s-item{
+        overflow: hidden;
+        padding: 0px;
+        display: flex;
+    }
+    .iphone-6s-item .text{
+        padding: 30px;
+
+        width: 40%;
+    }
+
+    .iphone-6s-item img{
+        position: relative;
+        bottom: -5%;
+        margin: auto;
+       
+    width: 55%;
+    
+    }
+
+
+
+    .learn-more-item .flex{
+     
+        height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        
+    }
+
+
+    .learn-more-item .flex p{
+        width: 50%;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+
+    .keyboard-item{
+
+        
+    }
+
+    .keyboard-item img{
+        width: 70%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .IMAC-RETINA img{
+        width: 40%;
+    }
+
+
+    .IMAC-RETINA .text{
+        width: 60%;
+        margin: auto;
+        padding-bottom: 15px;
+    }
+
+    .download{
+        padding-top: 10%;
+    width: 80%;
+    }
+
+
+    .POPULAR .circule{
+       
+        margin-inline: auto;
+    }
+
+
+    .Experience{
+        overflow: hidden;
+        padding: 0;
+        
+        
+        
+    }
+    .Experience span{
+        
+
+        position: relative;
+        top: 7%;
+        left: 2%;
+      
+    }
+   
+    .Experience .pic{
+        
+      
+        width: 90%;
+        
+
+
+    }
+
+    .Experience img{
+        position: relative;
+        bottom: 0;
+       
+    }
+
+    .games img{
+        width: 50%;
+       
+
+    }
+
+    .games{
+        padding: 0;
+        margin: 0;
+    }
+
+.vision{
+    
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+    .vision img{
+        margin-left: 5%;
+        width: 30%;
+    }
+
+    .vision p{
+        margin-right: 7%;
+        
+        width: 50%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+
+}
+
+

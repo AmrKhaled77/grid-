@@ -12,12 +12,27 @@
 
 /* end glopal */
 
-
+.grid {
+    display: grid;
+    grid-template-areas:
+        "iphone-6s-item"
+        "learn-more-item"
+        "keyboard-item"
+        "IMAC-RETINA"
+        "download"
+        "games"
+        "Experience"
+        "POPULAR"
+        "twitter"
+        "EXPERINCE"
+        "vision";
+}
 
 
 /* learn-more-item */
 
 .learn-more-item{
+    grid-area: learn-more-item;
     padding-block:50px ;
     padding-inline: 10px;
 
@@ -56,6 +71,7 @@ color: #9FA3A7;
 
 
 .iphone-6s-item{
+    grid-area: iphone-6s-item;
     padding-top:50px ;
     padding-inline: 10px;
 background-color: white;
@@ -105,6 +121,7 @@ color: #9FA3A7;
 }
 
 .keyboard-item{
+    grid-area: keyboard-item;
     padding-block:30px ;
     display: flex;
     justify-content: center;
@@ -139,6 +156,13 @@ width: 70%;
 
 /* games-item */
 .games{
+    grid-area: games;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
     padding-block:50px ;
     background-color: #F7F8F9;
 }
@@ -159,6 +183,7 @@ width: 70%;
 
 
 .IMAC-RETINA{
+    grid-area: IMAC-RETINA;
 
   padding-top: 50px;
   padding-bottom: 20px;
@@ -198,6 +223,7 @@ padding-inline: 12px;
 
 /* download */
 .download{
+    grid-area:download ;
    
     padding-inline: 20px;
 }
@@ -218,6 +244,7 @@ padding-inline: 12px;
 
 /* twitter */
 .twitter{
+    grid-area: twitter;
     
     background-color: #38D5F4;
 }
@@ -252,6 +279,7 @@ padding-inline: 12px;
 /* Experience */
 
 .Experience{
+    grid-area:Experience ;
     background-color: #93B6B7;
     padding-block: 50px;
 }
@@ -299,6 +327,7 @@ padding-inline: 12px;
 /* POPULAR */
 
 .POPULAR{
+    grid-area:POPULAR ;
     overflow: hidden;
     background-color: #8F76BC;
     text-align: center;
@@ -375,18 +404,19 @@ padding-inline: 12px;
 /* POPULAR */
 
 /* Experience */
-.Experience{
+.EXPERINCE{
+    grid-area: EXPERINCE;
     text-align: center;
     background-color: white;
 }
-.Experience span{
+.EXPERINCE span{
     font-size: 10px;
     background-color:#7BC424 ;
     padding: 4px 12px;
     margin: 0;
 }
 
-.Experience p{
+.EXPERINCE p{
     padding: 20px;
     color: black;
     font-size: 25px;
@@ -394,11 +424,12 @@ padding-inline: 12px;
 }
 
 
-/* Experience */
+/* EXPERINCE */
 
 /* vision */
 
 .vision{
+    grid-area:vision ;
     text-align: center;
     background-color: #2C2C2C;
 }
